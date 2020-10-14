@@ -1,0 +1,14 @@
+div.board {
+    background-color: grey;
+    border: 5px;
+}
+div.board {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+}
+div.board:nth-child(odd) div.board:nth-child(even),
+div.board:nth-child(even) div.board:nth-child(odd) {
+    background: white;
+}

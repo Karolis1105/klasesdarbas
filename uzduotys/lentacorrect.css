@@ -1,0 +1,24 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;\
+    font-size: 25px;
+    display: inline-block;
+}
+
+div:nth-of-child(odd) {
+    background-color: grey;
+}
+
+div:nth-of-type(2n) {
+    background-color: blue;
+}
+
+div:nth-of-type(4n) {
+    background-color: green;
+}
+
+div:nth-of-type(2n+16) {
+    background-color: hotpink;
+}

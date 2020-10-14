@@ -1,0 +1,26 @@
+main img {
+    float: left;
+    margin: 0 10px 10px 0;
+    border: 1px solid darkgray;
+    padding: 5px;
+}
+
+@keyframes mano_animacija {
+    0% {background-color: red}
+    25% {background-color: blue}
+    50% {background-color: green}
+    75% {background-color: white}
+    100% {background-color: red}
+}
+#elementas {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: mano_animacija;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+body.animate {
+    transition: all 1s ease-out;
+}
